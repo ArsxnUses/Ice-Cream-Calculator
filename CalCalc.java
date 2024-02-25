@@ -23,5 +23,7 @@ public class CalCalc {
         System.out.println("You have eaten " + creamEaten + " scoops of icecream");
         System.out.println("You topped those scoops off with " + fudgeEaten + " teaspoons of fudge");
         System.out.println("Resulting in the consumption of " + calEaten + " calories");
+
+        keyboard.close();
     }
 }
